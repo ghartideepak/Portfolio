@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    
+}
+
+body{
+    background: #fff;
+    
+}
+
+.container{
+    width: 95%;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.nav{
+    width: 100%;
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-width: 600px;
+    
+}
+
+h1{
+    text-align: center; 
+    margin: 50px; 
+    min-width: 600px;
+}
+
+.details{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.details a, .projectlist a{
+    text-decoration: none;
+    color: #000000;
+}
+.name, .details div{
+    cursor: pointer;
+}
+
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    height: 100vh;
+    min-width: 600px;
+    
+}
+
+.image, .introboard{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+}
+
+.introboard p{
+    position: relative;
+    top: 10%;
+    height: fit-content;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 40px 50px 0px 40px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    transform: translateX(-110%);
+    animation: introp 2s linear forwards;
+}
+
+.image{
+    
+    background-image: url(images/myphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateX(100%); 
+    animation: introp 2s linear forwards;  
+}
+@keyframes introp{
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.projectlist{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.listcontainer{
+    width: 90%;
+    height: 40%; 
+    margin: 20px;
+}
+.listphoto{
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+.listphoto img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.listtitle{
+    height: px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.skilllist{
+    display: flex;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
