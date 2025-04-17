@@ -8,7 +8,7 @@
 }
 
 body{
-    background:black;
+    background: #fff;
     
 }
 
@@ -86,7 +86,7 @@ h1{
 
 .image{
     
-    background-image: url('https://github.com/ghartideepak/Portfolio/portfolio/images/myphoto.jpg');
+    background-image: url(portfolio/images/myphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateX(100%); 
