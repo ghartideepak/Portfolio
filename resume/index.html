@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyResume - Tailor Your Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to MyResume</h1>
+    <p>Tailor your resume according to the job description requirements.</p>
+    <nav>
+      <a href="#register">Register</a>
+      <a href="#login">Login</a>
+    </nav>
+  </header>
+  
+
+  <!-- Registration Form -->
+  <section id="register" class="form-section">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <input type="text" id="username" placeholder="Enter Username" required>
+      <input type="password" id="password" placeholder="Enter Password" required>
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Job Description Input -->
+  <section id="jobDescription" class="form-section">
+    <h2>Enter Job Description</h2>
+    <textarea id="jobDesc" placeholder="Paste or write the job description..." required></textarea>
+    <button id="generateResume">Generate Resume</button>
+  </section>
+
+  <!-- Display Generated Resume -->
+  <section id="generatedResume" class="form-section">
+    <h2>Your Tailored Resume</h2>
+    <div id="resumeOutput">
+      <!-- Resume content will go here -->
+    </div>
+    <button id="downloadWord">Download Word</button>
+    <button id="downloadPDF">Download PDF</button>
+    <button id="editResume">Edit Resume</button>
+  </section>
+</body>
+</html>
