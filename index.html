@@ -1,266 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="nav">
-            <div class="name">Deepak Gharti</div>
-            <div class="details">
-                <a href="#project"><div>Project</div></a>
-                <a href="#skills"><div>Skills</div></a>
-                <a href="#contact"><div>Contact</div></a>
-            </div>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">D</span> Deepak Gharti</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
         </div>
-        <h1>WEB DEVELOPER || CONTENT CREATOR || VIDEO EDITOR</h1>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="image/dpk.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Deepak Gharti<br/><h2> Web Developer || Content Creator</h2></h1>
+        </div><br/>
+        <p class="section__description">
+           I love designing and creating solution through code. That's why web development career suit me most. I am looking for co-op to start my career in the company where I can contribute my skills and knowledge to build real world solution application.
         
-        <div class="intro">
-            
-          
-            <div class="introboard">
-                
-                <p>
-                    I am Deepak Gharti. I love creating things that helps to solve the problems with the help of Technology. That's why I enjoy Coding, Video Editing, and Creating something new.
-                </p>
-                
-            </div>
-            <div class="image"></div>
-            
+        </p>
+        <div class="header__btn">
+          <button class="btn">Hire Me Now</button>
         </div>
-           
+      </div>
+    </header>
 
-        <div class="project" id="project">
-            <h1>PROJECTS I HAVE ACCOMPLISHED</h1>
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="image/dpk_current.jpg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
 
-            <div class="projectlist">
+            <p class="section__description">
+                Though currently working part-time outside the tech field, I’ve been recognized as a Peak Performer at Cactus Club Cafe, demonstrating my strong work ethic and commitment.<br/><br/>
+                I hold a Bachelor’s degree in Information Communication Technology Education and am pursuing a Postgraduate Diploma in Full Stack Software Development. I am eager to apply my skills in real-world projects and seek internship or co-op opportunities to grow professionally.
+              </p>
 
-                <a href="https://youtube.com/@deeptrendchannel">
-                    <div class="listcontainer">
-                        <div class="listphoto"><img src="https://www.freeiconspng.com/uploads/download-youtube-logo-png-clipart-3.png"
-                            alt="youtubechannel">
-                        </div>
-                        <div class="listtitle"><h2>MY YOUTUBE CHANNEL</h2>
-                        </div>
-                    </div>
-                    </a>
-
-                <a href="Weather App/index.html">
-                <div class="listcontainer">
-                    <div class="listphoto"><img src="https://cdn-icons-png.flaticon.com/512/7477/7477790.png"
-                        alt="weatherappphoto">
-                    </div>
-                    <div class="listtitle"><h2>WEATHER APP</h2>
-                    </div>
-                </div>
-                </a>
-                
-
-                <a href="Toast Notification/index.html">
-                    <div class="listcontainer">
-                        <div class="listphoto"><img src="https://buildfire.com/wp-content/uploads/2024/09/what-is-a-push-notification-and-why-it-matters-1.jpg"
-                            alt="notificationphoto">
-                        </div>
-                        <div class="listtitle"><h2> NOTIFICATION</h2>
-                        </div>
-                    </div>
-                    </a>
-
-                    <a href="To-do List/index.html">
-                        <div class="listcontainer">
-                            <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2021/07/27/05/52/list-6495877_1280.png"
-                                alt="todolistphoto">
-                            </div>
-                            <div class="listtitle"><h2>TO DO-LIST</h2>
-                            </div>
-                        </div>
-                        </a>
-
-                        <a href="Stopwatch/index.html">
-                            <div class="listcontainer">
-                                <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2014/03/24/17/14/stop-295172_1280.png"
-                                    alt="STOPWATCH">
-                                </div>
-                                <div class="listtitle"><h2>STOPWATCH</h2>
-                                </div>
-                            </div>
-                            </a>
-
-
-                            <a href="Quotes Generator/index.html">
-                                <div class="listcontainer">
-                                    <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2022/09/09/04/21/motivational-7442309_1280.png"
-                                        alt="QUOTES GENERATER">
-                                    </div>
-                                    <div class="listtitle"><h2>QUOTES ON X</h2>
-                                    </div>
-                                </div>
-                                </a>
-
-                                <a href="Quiz App/index.html">
-                                    <div class="listcontainer">
-                                        <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2016/07/04/12/14/steps-1496523_1280.png"
-                                            alt="QUIZ">
-                                        </div>
-                                        <div class="listtitle"><h2>QUIZ APP</h2>
-                                        </div>
-                                    </div>
-                                    </a>
-
-                                    <a href="QR code Generator/index.html">
-                                        <div class="listcontainer">
-                                            <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2013/07/12/14/45/qr-code-148732_1280.png"
-                                                alt="QR">
-                                            </div>
-                                            <div class="listtitle"><h2>QR GENERATOR</h2>
-                                            </div>
-                                        </div>
-                                        </a>
-
-                                        <a href="Password generator/index.html">
-                                            <div class="listcontainer">
-                                                <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2019/06/27/16/05/security-4302572_1280.jpg"
-                                                    alt="password">
-                                                </div>
-                                                <div class="listtitle"><h2>PASSWORD GENERATOR</h2>
-                                                </div>
-                                            </div>
-                                            </a>
-
-                                        <a href="Notes/index.html">
-                                            <div class="listcontainer">
-                                                <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2018/04/07/08/28/notepad-3297994_1280.jpg"
-                                                    alt="notes">
-                                                </div>
-                                                <div class="listtitle"><h2>NOTES </h2>
-                                                </div>
-                                            </div>
-                                            </a>
-                                            <a href="Music app/index.html">
-                                                <div class="listcontainer">
-                                                    <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2017/11/15/09/28/music-player-2951399_1280.jpg"
-                                                        alt="Music">
-                                                    </div>
-                                                    <div class="listtitle"><h2>MUSIC</h2>
-                                                    </div>
-                                                </div>
-                                                </a>
-                                                <a href="Calculator/index.html">
-                                                    <div class="listcontainer">
-                                                        <div class="listphoto"><img src="https://cdn.pixabay.com/photo/2016/07/29/21/42/school-1555910_1280.png"
-                                                            alt="CALCULATOR">
-                                                        </div>
-                                                        <div class="listtitle"><h2>CALCULATOR</h2>
-                                                        </div>
-                                                    </div>
-                                                    </a>
-                                                    <a href="Age Calculator/index.html">
-                                                        <div class="listcontainer">
-                                                            <div class="listphoto"><img src="https://www.thesharmaclinic.com/wp-content/uploads/2023/05/SIgns-of-facial-aging.jpg"
-                                                                alt="AGE">
-                                                            </div>
-                                                            <div class="listtitle"><h2>AGE CALCULATOR</h2>
-                                                            </div>
-                                                        </div>
-                                                        </a>
-
-                                        
-
-
-                </div>
-            </div>
-
+        <div class="about__btn">
+          <a href="image/dpk.jpg" download class="btn">Download CV</a>
         </div>
-            
+      </div>
+    </section>
 
-        <div class="skills" id="skills">
-            <h1>SKILLS THAT I HAVE ACHIEVED</h1>
-            <h1>WEB DEVELOPMENT SKILLS</h1>
-            <div class="skillcontainer">
-                <h2>HTML</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 99%; height: 37px; background-color: green;"></div></div><span>99%</span>
-                </div>
+    <section class="section__container service__container" id="project">
+      <h2 class="section__header">Projects</h2>
 
-                <h2>CSS</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 95%; height: 37px; background-color: green;"></div></div><span>95%</span>
-                </div>
-
-                <h2>JAVASCRIPT</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 90%; height: 37px; background-color: green;"></div></div><span>90%</span>
-                </div>
-
-
-                <h2>PHP</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 80%; height: 37px; background-color: green;"></div></div><span>80%</span>
-                </div>
-
-                <h2>MYSQL</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 80%; height: 37px; background-color: green;"></div></div><span>80%</span>
-                </div>
-
-                <h2>PYTHON</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 80%; height: 37px; background-color: green;"></div></div><span>80%</span>
-                </div>
-
-                <h2>JAVA</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 80%; height: 37px; background-color: green;"></div></div><span>80%</span>
-                </div>
-
-                <h2>FIGMA</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 70%; height: 37px; background-color: green;"></div></div><span>70%</span>
-                </div>
-
-                <h2>REACT</h2>
-                <div class="skilllist">
-                <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 50%; height: 37px; background-color: green;"></div></div><span>50%</span>
-                </div>
-                </div>
-
-                <h1>OTHER SKILLS RELATED TO VIDEO EDITOR</h1>
-                <div class="skillcontainer">
-                    <h2>WONDERSHARE FILMORA</h2>
-                    <div class="skilllist">
-                    <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 99%; height: 37px; background-color: green;"></div></div><span>99%</span>
-                    </div>
-
-                    <h2>DAVINVCI RESOLVE</h2>
-                    <div class="skilllist">
-                    <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 90%; height: 37px; background-color: green;"></div></div><span>90%</span>
-                    </div>
-
-                    <h2>PHOTOSHOP</h2>
-                    <div class="skilllist">
-                    <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 80%; height: 37px; background-color: green;"></div></div><span>80%</span>
-                    </div>
-
-                    <h2>CANVA</h2>
-                    <div class="skilllist">
-                    <div class="bar" style="width:100%; height: 40px; border: 2px solid black;"><div class="barfill" style="width: 80%; height: 37px; background-color: green;"></div></div><span>80%</span>
-                    </div>
-                
-
-            </div>
-
-        <div class="contact" id="contact">
-            <h1>Contact Details</h1>
-            <div class="contact" style="text-align: center;">
-                <h2>Email: deepakgharti495@gmail.com</h2>
-            </div>
+      <p class="section__description">
+        Explore a showcase of my diverse projects, demonstrating my skills in
+        web development, design, and beyond. Each project reflects my passion
+        for creating impactful and innovative digital experiences. 
+      </p>
+      
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-youtube-fill"></i></span>
+          <h4>MY YOUTUBE CHANNEL</h4>
+          <p><a href="https://youtube.com/@deeptrendchannel" target="_blank" rel="noopener noreferrer">Visit my YouTube channel for videos and updates.</a></p>
         </div>
 
-    </div>
-    <footer><h1>Thank You for visiting my Portfolio</h1></footer>
-    
-</body>
+        <div class="service__card">
+          <span><i class="ri-cloud-line"></i></span>
+          <h4>WEATHER APP</h4>
+          <p><a href="Weather App/index.html" target="_blank" rel="noopener noreferrer">Check live weather updates with this interactive app.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-notification-line"></i></span>
+          <h4>NOTIFICATION</h4>
+          <p><a href="Toast Notification/index.html" target="_blank" rel="noopener noreferrer">Explore push notification examples and implementation.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-list-check"></i></span>
+          <h4>TO DO-LIST</h4>
+          <p><a href="To-do List/index.html" target="_blank" rel="noopener noreferrer">Manage your tasks easily with this to-do list app.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-timer-line"></i></span>
+          <h4>STOPWATCH</h4>
+          <p><a href="Stopwatch/index.html" target="_blank" rel="noopener noreferrer">Track time accurately with the stopwatch app.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-quote-line"></i></span>
+          <h4>QUOTES ON X</h4>
+          <p><a href="Quotes Generator/index.html" target="_blank" rel="noopener noreferrer">Generate inspirational quotes to share and enjoy.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-question-line"></i></span>
+          <h4>QUIZ APP</h4>
+          <p><a href="Quiz App/index.html" target="_blank" rel="noopener noreferrer">Test your knowledge with this fun quiz app.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-qrcode-line"></i></span>
+          <h4>QR GENERATOR</h4>
+          <p><a href="QR code Generator/index.html" target="_blank" rel="noopener noreferrer">Create QR codes easily for different uses.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-lock-line"></i></span>
+          <h4>PASSWORD GENERATOR</h4>
+          <p><a href="Password generator/index.html" target="_blank" rel="noopener noreferrer">Generate strong and secure passwords quickly.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-notepad-line"></i></span>
+          <h4>NOTES</h4>
+          <p><a href="Notes/index.html" target="_blank" rel="noopener noreferrer">Keep your notes organized and accessible.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-music-line"></i></span>
+          <h4>MUSIC</h4>
+          <p><a href="Music app/index.html" target="_blank" rel="noopener noreferrer">Listen and enjoy music with this player app.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-calculator-line"></i></span>
+          <h4>CALCULATOR</h4>
+          <p><a href="Calculator/index.html" target="_blank" rel="noopener noreferrer">Perform calculations quickly and easily.</a></p>
+        </div>
+
+        <div class="service__card">
+          <span><i class="ri-user-3-line"></i></span>
+          <h4>AGE CALCULATOR</h4>
+          <p><a href="Age Calculator/index.html" target="_blank" rel="noopener noreferrer">Calculate your age with this simple tool.</a></p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="skills">
+      <h2 class="section__header">Skills</h2>
+      <p class="section__description">
+        My skills 
+      </p>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small_2x/html5-emblem-orange-shield-and-white-text-vector.jpg" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubsfvX1GCHF8amyfEQxTz7AECFDY-oGMVTg&s" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="https://play-lh.googleusercontent.com/rfWOJQVBHoAZ_B43v0ySFlLmJBLtksVGAxGaFRh2ex4nOmNQ86qzG4sYWV63IKrXlvI" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="https://miro.medium.com/v2/resize:fit:2000/0*zj_kGMq6f2ZxW7p3.png" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*Y1hq9sHXG26Fyhys81z8rg.png" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="https://www.websolutions.cy/technologies/mysql/logo.svg" alt="portfolio" />
+        </div>
+
+        <div class="portfolio__card">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*Y1hq9sHXG26Fyhys81z8rg.png" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="https://www.macworld.com/wp-content/uploads/2023/01/learn_java_on_mac.jpg?quality=50&strip=all" alt="portfolio" />
+        </div>
+
+         <div class="portfolio__card">
+          <img src=" https://www.ntuclearninghub.com/documents/39367/7431407/python-programming%20fundamentals.jpg/0f980a00-ced6-85e7-3d57-fa1651dd572b/" alt="portfolio" />
+        </div>
+
+       
+      </div>
+      
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">D</div>
+      <h2 class="section__header">My Contact info</h2>
+      <p class="section__description">
+        Connect with me for more info...
+      </p>
+      <div class="contact__socials">
+        <a href="https://x.com/deepakgharti495"><i class="ri-twitter-fill"></i></a>
+        <a href="https://www.linkedin.com/in/deepakgharti"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://www.instagram.com/deepak__gharti/"><i class="ri-instagram-fill"></i></a>
+      </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2025 Deepak Gharti. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
